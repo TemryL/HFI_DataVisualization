@@ -13,7 +13,8 @@
 
     <title>Hand-Face interactions: Sequences statistics</title>
 
-    <script src="script.js"></script>
+    <script src="jquery.js"></script>
+    <script src="script.js" type="text/javascript"></script>
 
 </head>
 
@@ -65,13 +66,10 @@
     </select>
     <br><br>
     
-    <div class="map-transition wrap">
-        <div id="map_len" class="map_containers">
-            <object id=len_graph type="text/html" data="graphs/length_sequences_graph_all.html" width=1500, height=800></object>
-        </div>
-    </div>
+    <object id=sequences_count type="text/html" data="graphs/sequences_count/sequences_count_all.html" width=1500, height=900></object>
+    <object id=merged_sequences_length type="text/html" data="graphs/merged_sequences_length/merged_sequences_length_all.html" width=1500, height=900></object>
+    <object id=sequences_length type="text/html" data="graphs/sequences_length/sequences_length_all.html" width=1500, height=900></object>
 
 </body>
-
 
 </html>
